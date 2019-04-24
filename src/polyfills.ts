@@ -61,3 +61,13 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+ console.log("Message Pack Error has been fixed by adding code to polyfill.ts");
+
+(window as any).global = window;
+
+(window as any).process = {
+    env: { DEBUG: undefined },
+    version: "1",
+};
+global.Buffer = global.Buffer || require('buffer').Buffer;

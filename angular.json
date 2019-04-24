@@ -25,7 +25,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/msgpack5/dist/msgpack5.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -82,7 +84,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/msgpack5/dist/msgpack5.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
